@@ -1,3 +1,4 @@
+########################
 #Protección rama main
 ########################
 En el apartado 2 del documento practica1 vienen las imágenes de las evidencias:
@@ -35,3 +36,12 @@ Beneficios:
 - Mayor control sobre que cambios van a subir
 - Evita la posibilidad de subir cambios indebidos
 - Garantiza una buena trazabilidad de todos los cambios que han subido a Producción
+
+
+#######################
+#Gitignore
+#######################
+
+
+
+
