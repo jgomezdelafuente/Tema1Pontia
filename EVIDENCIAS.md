@@ -69,3 +69,11 @@ Se crea el fichero conf.txt  que no está incluido en el fichero .gitignore. Se 
 
 
 
+
+
+Se muestra el resultado del fichero git status
+
+
+
+
+Justificación del fichero .gitignore
