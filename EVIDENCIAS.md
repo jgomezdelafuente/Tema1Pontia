@@ -71,9 +71,12 @@ Se crea el fichero conf.txt  que no está incluido en el fichero .gitignore. Se 
 
 
 
-Se muestra el resultado del fichero git status
-
+Se muestra el resultado del fichero git status Img 3.5
 
 
 
 Justificación del fichero .gitignore
+La utilidad principal es evitar versionar ficheros ficheros que no son necesarios. 
+El echo de versionarlos genera dejar commits que no tiene sentido, posibles conflictos entre ficheros como así un riesgo de seguridad.
+- Esto hace que las releases pesen menos y los diff sean mas claros.
+
