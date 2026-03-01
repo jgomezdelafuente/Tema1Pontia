@@ -1,3 +1,4 @@
+########################
 #Protección rama main
 ########################
 En el apartado 2 del documento practica1 vienen las imágenes de las evidencias:
@@ -35,3 +36,36 @@ Beneficios:
 - Mayor control sobre que cambios van a subir
 - Evita la posibilidad de subir cambios indebidos
 - Garantiza una buena trazabilidad de todos los cambios que han subido a Producción
+
+
+#######################
+#Gitignore
+#######################
+
+En la imagen Img 3.1 se ve la imagen de cual es la configuración del fichero .gitignore
+
+Se han creado los siguientes directorios / Ficheros (Img 3.2)
+$ ls -lRt
+.:
+total 5
+drwxr-xr-x 1 jgome 197609    0 Mar  1 16:38 __pycache__/
+drwxr-xr-x 1 jgome 197609    0 Mar  1 16:37 dir/
+-rw-r--r-- 1 jgome 197609    0 Mar  1 16:31 fichero.log
+-rw-r--r-- 1 jgome 197609 2152 Mar  1 16:27 EVIDENCIAS.md
+-rw-r--r-- 1 jgome 197609   39 Mar  1 16:02 README.md
+
+./__pycache__:
+total 0
+-rw-r--r-- 1 jgome 197609 0 Mar  1 16:38 conf.txt
+
+./dir:
+total 0
+-rw-r--r-- 1 jgome 197609 0 Mar  1 16:37 output.log
+
+
+Se realiza el git push. Ver el resultado en Img 3.3
+
+Se crea el fichero conf.txt  que no está incluido en el fichero .gitignore. Se hace el push y se veo como en la imagen Img 3.4
+
+
+

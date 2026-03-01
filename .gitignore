@@ -1,0 +1,5 @@
+#Exclusión de fichero .log en todos los directorio
+**/*.log
+
+#Exclusión del directorio __pychahe__
+__pycache__/
