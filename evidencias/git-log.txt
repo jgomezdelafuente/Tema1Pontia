@@ -1,0 +1,28 @@
+$ git log --oneline --graph --all
+*   dbbe99b (HEAD -> feature/resta, origin/feature/resta) update operations.py with suma and resta afer conflict
+|\
+| *   1ef4755 (origin/main, main) Merge pull request #8 from jgomezdelafuente/feature/suma
+| |\
+| | * 9185531 (origin/feature/suma, feature/suma) add suma
+| |/
+* / cb5b0e1 add resta
+|/
+*   96cecd8 Merge pull request #5 from jgomezdelafuente/feature/gitignore
+|\
+| * 0ed935a (origin/feature/gitignore, feature/gitignore) mover fichero gitignore-status.txt a ruta correcta
+* | 8e906f7 Merge pull request #4 from jgomezdelafuente/feature/gitignore
+|\|
+| * 381d608 mover fichero gitignore-status.txt a ruta correcta
+| * a2625d4 add fichero gitignore-status.txt
+* | 211bc9e Merge pull request #3 from jgomezdelafuente/feature/gitignore
+|\|
+| * 8e9a298 Eliminar fichero conf.txt
+| * 54c5985 fichero no está en git ignore
+| * 01d0c6f configuracion gitignore
+|/
+*   3d49bbf Merge pull request #2 from jgomezdelafuente/feature/proteccion
+|\
+| * 65910c6 (origin/feature/proteccion, feature/proteccion) subida EVIDENCIAS.md completo
+|/
+* b7f2c2b add README.md
+
