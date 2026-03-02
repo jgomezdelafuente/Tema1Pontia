@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Saludo personalizado
-        run: echo "Hola, ${{ github.event.inputs.nombre }}!"
+        run: echo "${{ github.event.inputs.nombre }} ${{ github.event.inputs.Apellidos }}"
