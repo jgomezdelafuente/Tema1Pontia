@@ -1,3 +1,15 @@
+################################################
+#3- Uso del archivo .gitignore
+################################################
+
+Img 3.1  Configuración de .gitignore
+En Img 3.2 se muestran los ficheros que se han creado para evidenciar el funcionamiento
+En Img 3.3: Resultado de realizar la subida con ficheros que están definidos en .gitignore
+
+Se añade un fichero nuevo llamado conf.txt que no estaba en la feature anterior.
+El resultado se ve en Img 3.4, donde se ve que si ha subido al repositorio 
+
+Resultado de ejecutar git-status. En Img 3.5 se ve el mismo resultado pero en una foto
 On branch feature/gitignore
 Your branch is up to date with 'origin/feature/gitignore'.
 

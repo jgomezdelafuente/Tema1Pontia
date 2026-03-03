@@ -1,3 +1,26 @@
+########################################
+#Simulación y resolución de un conflicto
+########################################
+
+A la hora de hacer la Pull Request, se ve en la imagen Img 5.1 el conflicto
+
+Pasos para resolver el conflicto
+jgome@JaviPortatil MINGW64 /c/Datos/IA/MasterIA/01_Versionado_de_codigo_y_colaboración/codigo/Tema1Pontia (main)
+$ git checkout feature/resta
+Switched to branch 'feature/resta'
+Your branch is up to date with 'origin/feature/resta'.
+
+jgome@JaviPortatil MINGW64 /c/Datos/IA/MasterIA/01_Versionado_de_codigo_y_colaboración/codigo/Tema1Pontia (feature/resta)
+$ git merge  main
+Auto-merging operations.py
+CONFLICT (add/add): Merge conflict in operations.py
+Automatic merge failed; fix conflicts and then commit the result.
+
+En la imagen Img 5.2 se muestra una foto del conflicto.
+En la imagen 5.3 se muestra como queda el fichero operations.py después de solventar manualmente el conflicto.
+
+
+Resultado de ejecutar el comando: $ git log --oneline --graph --all
 $ git log --oneline --graph --all
 *   dbbe99b (HEAD -> feature/resta, origin/feature/resta) update operations.py with suma and resta afer conflict
 |\
@@ -25,4 +48,7 @@ $ git log --oneline --graph --all
 | * 65910c6 (origin/feature/proteccion, feature/proteccion) subida EVIDENCIAS.md completo
 |/
 * b7f2c2b add README.md
+
+
+En la imagen Img 5.4 se ve el resultado del git log
 
