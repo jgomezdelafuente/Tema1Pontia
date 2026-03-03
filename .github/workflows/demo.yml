@@ -2,18 +2,15 @@ name: Workflow Manual
 on:
   workflow_dispatch:
     inputs:
-      nombre:
-        description: 'Tu nombre'
+      nombre_apellidos:
+        description: 'Tu nombre y Apellidos'
         required: true
-        default: 'Nombre'
-      apellidos:
-        description: 'Cuales son tus apellidos'
-        required: true
-        default: 'Apellidos'
+        default: 'Nombre Apellidos'
 
 jobs:
   saludo:
     runs-on: ubuntu-latest
     steps:
       - name: Saludo personalizado
-        run: echo "${{ github.event.inputs.nombre }} ${{ github.event.inputs.Apellidos }}"
+        run: echo "${{ github.event.inputs.nombre_apellidos }}
+
